@@ -1,0 +1,60 @@
+🚀 TORNADO v4.0 – HƯỚNG DẪN SỬ DỤNG
+──────────────────────────────────────────────
+
+🧱 1. CÀI NODE.JS
+
+• Windows:
+  - Tải tại: https://nodejs.org
+  - Cài xong khởi động lại máy
+
+• Linux:
+  sudo apt update
+  sudo apt install nodejs npm -y
+
+──────────────────────────────────────────────
+
+🧩 2. CÀI PYTHON (ĐỂ CHẠY check.py)
+
+• Windows:
+  - Tải tại: https://python.org/downloads
+  - Chọn "Add to PATH" khi cài
+
+• Linux:
+  sudo apt install python3 python3-pip -y
+
+──────────────────────────────────────────────
+
+📦 3. CÀI THƯ VIỆN
+
+• Cài thư viện cho tool:
+  bash run.sh
+
+• Cài thư viện cho check.py:
+  pip install psutil
+
+──────────────────────────────────────────────
+
+🧠 4. KIỂM TRA CẤU HÌNH – NHẬN LỆNH GỢI Ý
+
+• Chạy:
+  python check.py
+
+→ Script sẽ tự động kiểm tra CPU, RAM và gợi ý lệnh phù hợp nhất.
+
+❗ KHÔNG tự đoán cấu hình – hãy dùng check.py để tối ưu.
+
+──────────────────────────────────────────────
+
+🚀 5. CHẠY TOOL
+
+• Sau khi chạy check.py, copy lệnh được gợi ý và dán vào terminal để chạy.
+
+──────────────────────────────────────────────
+
+📌 LƯU Ý:
+
+- Luôn kiểm tra file proxy.txt có proxy sống
+- Không nên bắt đầu bằng cấu hình quá nặng
+- Dùng Ctrl + C để dừng tool
+
+──────────────────────────────────────────────

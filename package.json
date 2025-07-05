@@ -1,0 +1,16 @@
+{
+  "name": "tornado-ddos",
+  "version": "4.0.0",
+  "description": "TORNADO v4.0 DDoS Tool",
+  "main": "d.js",
+  "dependencies": {
+    "hpack": "^2.1.2",
+    "colors": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node d.js",
+    "check": "node check.js"
+  },
+  "author": "@rapidreset",
+  "license": "MIT"
+} 
