@@ -728,10 +728,10 @@ if (cluster.isMaster) {
     const credit = 'Developed & Maintained by @rapidreset 🛠️';
     
     // Thông số với emoji lớn hơn
-    const target = `🎯 TARGET     : ${target}`;
+    const targetInfo = `🎯 TARGET     : ${target}`;
     const duration = `⏱️  DURATION   : ${time}`;
     const rate = `🚀 RATE       : ${ratelimit}`;
-    const threads = `🧵 THREADS    : ${threads}`;
+    const threadsInfo = `🧵 THREADS    : ${threads}`;
     const proxy = `🌐 PROXY LIST : ${proxyfile}`;
     
     // In banner với màu rainbow
@@ -746,7 +746,7 @@ if (cluster.isMaster) {
     console.log(sep.rainbow);
     
     // In thông số
-    const infoLines = [target, duration, rate, threads, proxy];
+    const infoLines = [targetInfo, duration, rate, threadsInfo, proxy];
     for (const line of infoLines) {
         const pad = boxWidth - line.replace(/\u001b\[[0-9;]*m/g, '').length;
         console.log(('║  ' + line + ' '.repeat(pad - 2) + '║').rainbow);
